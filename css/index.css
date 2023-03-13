@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(90deg, rgb(228, 228, 233), rgb(109, 108, 108));
+}
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nameOfCyborg{
+    display: flex;
+    background-color: rgb(68, 62, 62);
+    justify-self: baseline;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    min-height: 29px;
+}
+
+table{
+    max-width: 800px;
+}
+
+.footer{
+    display: flex;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactHimText{
+    display: flex;
+    justify-self: baseline;
+    justify-content: center;
+    align-items: center;
+    min-height: 29px;
+}
+
+::selection {
+    background-color: #000000;
+    color: #fff;
+}
