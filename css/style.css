@@ -244,7 +244,7 @@ td {
 }
 
 #footer{
-	background-color: #325C6A;
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(15, 66, 77));
 }
 .ftr-tle {
     height: 50px;
