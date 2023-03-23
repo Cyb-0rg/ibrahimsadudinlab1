@@ -133,12 +133,12 @@ hr.botm-line {
 #banner{
 	background: url('../img/bg-banner.jpg') no-repeat fixed;
 	background-size: cover;
-	min-height: 650px;
+	min-height: 100vh;
 	position: relative;
 }
 .bg-color{
-	background-color: RGBA(13, 70, 83, 0.78);
-	min-height: 650px;
+	background-color: rgba(13, 70, 83, 0.78);
+	min-height: 100vh;
 }
 .banner-info{
 	padding-top: 190px;
@@ -148,6 +148,7 @@ hr.botm-line {
 }
 .banner-text{
 	color: #fff;
+    margin-bottom:40px;
 }
 .banner-text h1{
 	font-family: 'Candal', sans-serif;
