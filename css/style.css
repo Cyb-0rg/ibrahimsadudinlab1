@@ -251,6 +251,7 @@ td {
 }
 .info-sec {
     color: #fff;
+    font-size: small;
 }
 .quick-info li i {
     font-size: 8px;
