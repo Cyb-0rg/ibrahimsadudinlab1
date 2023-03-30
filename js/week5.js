@@ -7,11 +7,35 @@ var num3 = 0;
 //alert(`total: ${num1+num2}`)
 
 function submitForm(){
-    let element = document.getElementById("name");
-    let name = element.value;
-    alert(`dear ${name} your form has been sent. Thank you `);
-    //alert(`dear XXXX your form has been sent. Thank you `);
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let subject = document.getElementById("subject").value;
+    let message = document.getElementById("message").value;
+
+    validateForm(name, email, subject, message) ? 
+    alert(`Dear ${name}, your form has been sent. Thank you `) ||
+    console.log("sent")
+    :
+    alert("invalid submit, please fill all fields correctly.") ||
+    console.error("error");
+
+    document.getElementById("btn-form-7").addEventListener("click", function(event){
+        event.preventDefault()
+      });
 }
+
+function validateForm(name, email, subject, message) {
+
+    var isValid = (name != '' &&
+                   //email == /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i
+                   email != '' &&
+                   subject != ''    &&
+                   message != ''     
+                   ? true : false ); 
+
+    return isValid;
+
+};
 
 function countUp(){
     
@@ -54,4 +78,3 @@ while (num2 < 10){
     console.log(num2);
     num2++;
 }
-
