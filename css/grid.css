@@ -28,6 +28,10 @@
     color: aliceblue;
 }
 
+.container{
+    color: aliceblue;
+}
+
 .ser-title{
     color: aliceblue;
 }
@@ -130,5 +134,28 @@
 
 .bglight-blue:hover{
     background-color: rgb(206, 214, 222);
+}
+
+.form-action{
+    color: black;
+}
+
+.btn-count-number, h1{
+    color: aliceblue;
+}
+
+.count-table, button{
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.count-table, button:hover{
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    
+    
 }
 
