@@ -38,10 +38,14 @@ function validateForm(name, email, subject, message) {
 };
 
 function countUp(){
-    
+
+    const colors = ["red", "blue", "green", "yellow", "orange", "lime", "aqua"];
+    const i = Math.random() * 7 ;
+
     let element = document.getElementById("btn-count-number");
     num3++;
     element.innerHTML = num3;
+    element.style.color = colors[parseInt(i)];
 }
 
 function onhover(){
