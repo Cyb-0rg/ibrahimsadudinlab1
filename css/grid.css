@@ -140,21 +140,31 @@
     color: black;
 }
 
+.form-action, button:hover{
+    color: white !important;
+    background-color: black;
+    border-color: white;
+    display: inline-block;
+}
+
 .btn-count-number, h1{
-    color: aliceblue;
+    color: white;
 }
 
 .count-table, button{
     color: black;
-    font-size: larger;
-    font-weight: bold;
+    
+    
     
 }
 
 .count-table, button:hover{
     color: white;
      font-weight: bold;
-    
-    
 }
+
+.contact-info-text, h3{
+    color: white;
+}
+
 

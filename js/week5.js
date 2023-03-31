@@ -38,10 +38,13 @@ function validateForm(name, email, subject, message) {
 };
 
 function countUp(){
-    
+    const colors = ["red", "blue", "green", "yellow", "orange", "lime", "aqua"];
+    const i = Math.random() * 7 ;
+
     let element = document.getElementById("btn-count-number");
     num3++;
     element.innerHTML = num3;
+    element.style.color = colors[parseInt(i)];
 }
 
 function onhover(){
@@ -50,12 +53,12 @@ function onhover(){
     let element3 = document.getElementById("contact-info-text");
     let element4 = document.getElementById("clickMe-msg");
 
-    element.style.color = "green";
-    element2.style.color = "green";
-    element3.style.color = "green";
-    element4.style.color = "green";
+    const color = "#0cb8b6e8";
 
-
+    element.style.color = color;
+    element2.style.color = color;
+    element3.style.color = color;
+    element4.style.color = color;
 }
 
 function onMouseLeave(){
@@ -69,8 +72,6 @@ function onMouseLeave(){
     element2.style.color = "white";
     //element3.style.color = "white";
     element4.style.color = "white";
-
-
 }
 
 
