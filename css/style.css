@@ -160,7 +160,7 @@ hr.botm-line {
 	margin-top: 30px;
 	padding: 10px 20px;
 	font-size: 12px;
-	background-color: rgba(12, 184, 182, 0.91);
+	background-color: #0cb8b6e8;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -244,14 +244,16 @@ td {
 }
 
 #footer{
-    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(15, 66, 77));
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), #0f424d);
 }
 .ftr-tle {
     height: 50px;
 }
 .info-sec {
     color: #fff;
-    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+
 }
 .quick-info li i {
     font-size: 8px;
