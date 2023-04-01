@@ -30,7 +30,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#banner">Home</a></li>
                 <li class="active"><a href="#album-wrapper">Gallery</a></li>
-                <li class="active"><a href="#footer">Contact</a></li>
+                <li class="active"><a href="#contact-wrapper">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -56,7 +56,6 @@
       </div>
     </div>
   </section>
-
 
   <section id="middle-section" class="section-padding">
     <div class="ser-title-container">
@@ -343,58 +342,59 @@
 
   </section>
 
-
   <section id="contact" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="ser-title">Contact me</h2>
-          <hr class="botm-line">
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <h3 id="contact-info-text">Contact Info</h3>
-          <div class="space"></div>
-          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> ********, ********</p>
-          <div class="space"></div>
-          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>ibrahimsadudin@gmail.com</p>
-          <div class="space"></div>
-          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+123 345 899 000</p>
-
-          <table class="count-table">
-            <h3 id="clickMe-msg">Click here</h3>
-            <tr>
-              <td><button type="" class="btn btn-count" onclick="countUp()">count ++</button></td>
-              <td><h1 id="btn-count-number">0</h1></td>
-            </tr>
-          </table>          
-        </div>
-        <div class="col-md-8 col-sm-8 marb20">
-          <div class="contact-info">
-            <h3 id="cnt-ttl" class="cnt-ttl">If you have any comment, please let me know.</h3>
+    <div class="contact-wrapper" id="contact-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="ser-title">Contact me</h2>
+            <hr class="botm-line">
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <h3 id="contact-info-text">Contact Info</h3>
             <div class="space"></div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm" onsubmit="submitForm()">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control br-radius-zero" name="message" id="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validation"></div>
-              </div>
-
-              <div class="form-action">
-                <button type="submit" class="btn btn-form" id="btn-form-7" onmouseover="onhover()" onmouseout="onMouseLeave()">Send Message</button>
-              </div>
-            </form>
+            <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> ********, ********</p>
+            <div class="space"></div>
+            <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>ibrahimsadudin@gmail.com</p>
+            <div class="space"></div>
+            <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+123 345 899 000</p>
+  
+            <table class="count-table">
+              <h3 id="clickMe-msg">Click here</h3>
+              <tr>
+                <td><button type="" class="btn btn-count" onclick="countUp()">count ++</button></td>
+                <td><h1 id="btn-count-number">0</h1></td>
+              </tr>
+            </table>          
+          </div>
+          <div class="col-md-8 col-sm-8 marb20">
+            <div class="contact-info">
+              <h3 id="cnt-ttl" class="cnt-ttl">If you have any comment, please let me know.</h3>
+              <div class="space"></div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm" onsubmit="submitForm()">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control br-radius-zero" name="message" id="message" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+  
+                <div class="form-action">
+                  <button type="submit" class="btn btn-form" id="btn-form-7" onmouseover="onhover()" onmouseout="onMouseLeave()">Send Message</button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
@@ -426,7 +426,7 @@
               <ul class="quick-info">
                 <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
                 <li><a href=#album-wrapper><i class="fa fa-circle"></i>Gallery</a></li>
-                <li><a href=#footer><i class="fa fa-circle"></i>Contact</a></li>
+                <li><a href=#contact-wrapper><i class="fa fa-circle"></i>Contact</a></li>
               </ul>
             </div>
           </div>
