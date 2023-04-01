@@ -25,15 +25,15 @@
 
 .ser-title-container{
     margin-left: 30px;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .container{
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .ser-title{
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .album-wrapper{
@@ -92,7 +92,7 @@
 
 .album-right{
 
-    color: whitesmoke;
+    color: #f5f5f5;
 
  
      display: flex;
@@ -141,14 +141,14 @@
 }
 
 .form-action, button:hover{
-    color: white !important;
+    color: #ffffff !important;
     background-color: black;
-    border-color: white;
+    border-color: #ffffff;
     display: inline-block;
 }
 
 .btn-count-number, h1{
-    color: white;
+    color: #ffffff;
 }
 
 .count-table, button{
@@ -159,16 +159,14 @@
 }
 
 .count-table, button:hover{
-    color: white;
+    color: #ffffff;
      font-weight: bold;
 }
 
 .contact-info-text, h3{
-    color: white;
+    color: #ffffff;
 }
 
 .contact-wrapper{
      margin-top: -80px;
 }
-
-
