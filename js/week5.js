@@ -26,8 +26,9 @@ function submitForm(){
 
 function validateForm(name, email, subject, message) {
 
+    var emailRegex = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i; 
     var isValid = (name != '' &&
-                   //email == /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i
+                   emailRegex.test(email) &&
                    email != '' &&
                    subject != ''    &&
                    message != ''     
