@@ -153,9 +153,15 @@
 
 .count-table, button{
     color: black;
+    margin-top: 10px;
     
     
     
+}
+
+.meke-space{
+    display: grid;
+    grid-auto-flow: row;
 }
 
 .count-table, button:hover{
@@ -169,4 +175,14 @@
 
 .contact-wrapper{
      margin-top: -80px;
+}
+
+
+
+
+.rounded-img{
+
+    height: inherit;
+    border-radius: 60px 0 60px 0;
+    
 }

@@ -1,45 +1,6 @@
 # webProLab1
  marmara university
-
- -- checking if fork syncs automatically.
  
- ## new brach test: week4
- ## new brach test: Three.js
 
-
-                      __
-                     /  \
-                    |    |
-(`----._____.-'"""`. \__/ .'"""`-._____.----')
- (____       .      `|  |'      .       ____)
-   (___`----' .     _|  |_     . `----'___)
-     (__`----'  _.-' |  | `-._  `----'__)
-       `._____.'_    |  |    _`._____.'
-              /o )-< |  | >-( o\
-             / .'    |  |    `. \
-            J J      |  |      L L
-            | |      |  |  
-              \ `.   |  |   .' /
-               `. `-.|  |.-' .'
-                 `-. |.-' .-'
-                   .-' .-'.
-                 .' .-' |. `.
-                / .' |  | `. \
-               / /   |  |   \ \
-              J J    |  |    L L
-              | |    |  |    | |
-              J J    |  |    F F
-               \ `.  |  |  .' /
-                `. `-|  !-' .'
-                  `-.!-' .-'
-                   .' .-|`.
-                  / .|  |. \
-                 J J |  | L L
-                 | | |  | | |
-                 J J |  | F F
-                  `.\|  |/.'
-                    `|  |'
-                     |  |
-                     |  |
-                     |  |
-                     `--'
+https://ibrahim-kedir.github.io/
+https://github.com/ibrahim-kedir/ibrahim-kedir.github.io/
